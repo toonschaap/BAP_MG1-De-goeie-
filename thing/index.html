@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel = "stylesheet" type="text/css" href = "style.css">
+    <meta charset = "utf-8">
+    <title>BMI</title>
+</head>
+<body>
+    <fieldset>
+        <h1>BMI Calculator</h1>
+        <p>Type de volgende gegevens in om je BMI te berekenen.</p>
+        <form>
+            <label for="weight">Gewicht (KG)</label> <br>
+            <input type="text" id="weight" name="weight"><br><br>
+            <label for="length">Lengte (CM)</label> <br>
+            <input type="text" id="length" name="length"><br><br>
+            <input type="button" value="BMI Berekenen" id="submit" onclick="ajax();">
+        </form>
+        <div id="resultaat"></div>
+        <script src = "ajax.js"></script>
+    </fieldset>
+</body>
+</html>
